@@ -1,0 +1,9 @@
+.card {
+  border-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+  .row-cols-sm-4 > .col {
+    margin-bottom: 1rem;
+  }
+}

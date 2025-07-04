@@ -1,0 +1,60 @@
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.carousel-bg {
+  z-index: -1;
+}
+
+.slide img {
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    padding: 2rem 1rem; /* Added padding around the content */
+  }
+
+  .carousel-bg {
+    height: 300px;
+    margin-bottom: 1rem; /* Space between carousel and text */
+  }
+
+  .slide img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: smooth edges */
+  }
+
+  .text {
+    margin-bottom: 1.5rem;
+  }
+
+  .trust {
+    margin-top: 1rem;
+  }
+
+  .roi-badge {
+    margin-top: 1.5rem;
+  }
+}
+
+.left-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+}
+.left-overlay.hidden {
+  opacity: 0;
+}
+.left-overlay.visible {
+  opacity: 1;
+}

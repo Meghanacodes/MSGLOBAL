@@ -1,0 +1,31 @@
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card h5 {
+  font-weight: 600;
+}
+
+.card ul {
+  padding-left: 0;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .card img {
+    height: 180px;
+  }
+
+  .card ul li {
+    font-size: 0.95rem;
+  }
+
+  .position-absolute {
+    font-size: 0.9rem;
+  }
+}

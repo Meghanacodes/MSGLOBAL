@@ -1,0 +1,26 @@
+.custom-solutions-container {
+  max-width: 1200px;
+}
+
+.custom-bg {
+  background-color: #051431;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+  .card .row {
+    flex-direction: column;
+  }
+
+  .card .col-lg-6 {
+    width: 100%;
+  }
+
+  .custom-bg {
+    padding: 2rem !important;
+    text-align: center;
+  }
+}

@@ -1,0 +1,44 @@
+<div class="hero-section position-relative text-black">
+  <!-- Carousel Background -->
+  <div class="carousel-bg position-absolute top-0 start-0 w-100 h-100 z-n1">
+    <div class="slides d-flex h-100" [style.transform]="getTransform()">
+      <div class="slide flex-shrink-0 w-100 h-100" *ngFor="let slide of slides">
+        <img [src]="slide.image" [alt]="slide.title" class="w-100 h-100 object-fit-cover" />
+      </div>
+    </div>
+  </div>
+  <!-- <div class="left-overlay"></div> -->
+
+  <!-- Foreground Content -->
+  <div class="d-flex flex-column justify-content-end h-100">
+    <div class="container py-4">
+      <div class="row align-items-end justify-content-between">
+        <!-- Text -->
+        <div class="text col-lg-6 col-md-6 mb-2">
+          <h1 class="display-5 fw-bold">High-Impact Digital Displays for High-Traffic Areas</h1>
+          <p class="lead">
+            Elevate your brand with strategic digital displays, hoardings, and standees in premium high foot traffic locations.
+          </p>
+          <div class="buttons d-flex flex-wrap gap-2 my-2">
+            <a href="#" class="btn btn-primary">Get Started →</a>
+          </div>
+
+          <div class="trust d-flex align-items-center gap-2 mt-4 flex-wrap">
+            <img src="assets/avatar1.jpg" class="rounded-circle" width="40" height="40" />
+            <img src="assets/avatar2.jpg" class="rounded-circle" width="40" height="40" />
+            <img src="assets/avatar3.jpg" class="rounded-circle" width="40" height="40" />
+            <span><strong>50+ businesses</strong> trust us with their advertising needs</span>
+          </div>
+        </div>
+
+        <!-- ROI Badge aligned with trust text -->
+        <div class="col-lg-4 col-md-6 text-lg-end text-center mt-4 mt-lg-0">
+          <div class="roi-badge bg-white p-3 rounded shadow-sm d-inline-block">
+            <span class="label text-muted small">Avg. ROI</span><br />
+            <strong class="text-success fs-4">+187%</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
