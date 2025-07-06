@@ -1,87 +1,36 @@
-.solutions {
-  padding: 80px 40px;
-  background: #f9f9f9;
-  text-align: center;
-}
-
-.section-header h2 {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-
-.section-header p {
-  color: #666;
-  font-size: 16px;
-  max-width: 700px;
-  margin: 0 auto 40px;
-}
-
-.solution-cards {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: #fff;
-  border: 1px solid #eee;
+.premium-card {
   border-radius: 16px;
-  padding: 24px;
-  width: 364px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  background: #fff;
+  max-width: 280px;         /* 👈 makes the card small/cute */
+  margin: 0 auto;           /* 👈 centers smaller cards in column */
+  padding-bottom: 10px;     /* 👈 adds spacing inside */
+}
+
+.premium-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-wrapper {
+  height: 160px;            /* 👈 reduce image height for smaller card */
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.premium-card:hover .card-img-top {
+  transform: scale(1.05);
 }
 
-.icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 16px;
-}
-
-.icon img {
-  width: 100%;
-  height: auto;
-}
-
-.card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  text-align: left;
-}
-
-.card p {
-  font-size: 15px;
-  color: #444;
-  margin-bottom: 16px;
-    text-align: left;
-}
-
-.card ul {
-  text-align: left;
-  list-style: none;
-  padding: 0;
-  margin-bottom: 24px;
-}
-
-.card ul li {
-  margin-bottom: 8px;
-  font-size: 14px;
-  color: #2e7d32;
-}
-
-.learn-btn {
-  display: block;
-  background: #d8eaff;
-  color: #007bff;
-  padding: 12px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
+/* 👇 Add top margin between this and previous section */
+.card-section-spacing {
+  margin-top: 4rem; /* You can adjust as needed */
 }

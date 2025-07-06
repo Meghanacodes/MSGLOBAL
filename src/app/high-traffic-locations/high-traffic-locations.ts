@@ -13,7 +13,7 @@ export class HighTrafficLocations {
     {
       title: 'Premium Shopping Malls',
       traffic: '15,000–25,000 daily foot traffic',
-      image: 'picture02.jpg',
+      image: '/Premium-Shopping-Malls.png',
       points: [
         'Digital displays at entrances and food courts',
         'Interactive kiosks near anchor stores',
@@ -23,7 +23,7 @@ export class HighTrafficLocations {
     {
       title: 'Transit Hubs',
       traffic: '30,000–50,000 daily foot traffic',
-      image: 'assets/transit.jpg',
+      image: '/hubs.png',
       points: [
         'Large format displays at waiting areas',
         'Digital billboards at entrances/exits',
@@ -33,7 +33,7 @@ export class HighTrafficLocations {
     {
       title: 'Commercial Districts',
       traffic: '20,000–40,000 daily foot traffic',
-      image: 'assets/district.jpg',
+      image: '/Commercial-Districts.png',
       points: [
         'Strategic billboard placements',
         'Digital displays at building entrances',
