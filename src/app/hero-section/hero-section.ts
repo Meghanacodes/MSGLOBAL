@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common'; // ✅ Import this
 })
 export class HeroSectionComponent {
   slides = [
-  { image: '/1.png',title: 'Slide 1', description: 'Description for Slide 1' },
+  { image: '/Brand.png',title: 'Slide 1', description: 'Description for Slide 1' },
   { image: '/2.png', title: 'Slide 2', description: 'Description for Slide 2' },
   { image: '/3.png', title: 'Slide 3', description: 'Description for Slide 3' },
 ];
