@@ -1,12 +1,13 @@
-<div class="hero-section position-relative text-black">
+<div class="hero-section text-black">
   <!-- Carousel Background -->
-  <div class="carousel-bg position-absolute top-0 start-0 w-100 h-100 z-n1">
-    <div class="slides d-flex h-100" [style.transform]="getTransform()">
-      <div class="slide flex-shrink-0 w-100 h-100" *ngFor="let slide of slides">
-        <img [src]="slide.image" [alt]="slide.title" class="w-100 h-100 object-fit-cover" />
+  <div class="carousel-bg">
+    <div class="slides" [style.transform]="getTransform()">
+      <div class="slide" *ngFor="let slide of slides">
+        <img [src]="slide.image" [alt]="slide.title" />
       </div>
     </div>
-  </div>
+
+
   <!-- <div class="left-overlay"></div> -->
 
   <!-- Foreground Content -->
@@ -19,16 +20,6 @@
           <p class="lead">
             Elevate your brand with strategic digital displays, hoardings, and standees in premium high foot traffic locations.
           </p> -->
-          <div class="buttons d-flex flex-wrap gap-2 my-2">
-            <a href="#" class="btn btn-primary">Get Started →</a>
-          </div>
-
-          <div class="trust d-flex align-items-center gap-2 mt-4 flex-wrap">
-            <img src="assets/avatar1.jpg" class="rounded-circle" width="40" height="40" />
-            <img src="assets/avatar2.jpg" class="rounded-circle" width="40" height="40" />
-            <img src="assets/avatar3.jpg" class="rounded-circle" width="40" height="40" />
-            <span><strong>50+ businesses</strong> trust us with their advertising needs</span>
-          </div>
         </div>
       </div>
     </div>

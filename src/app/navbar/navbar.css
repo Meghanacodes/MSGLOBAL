@@ -18,6 +18,11 @@
   color: #007bff;
 }
 
+.logo-text {
+  font-size: 1.75rem; /* Slightly larger than fs-4 */
+  font-weight: 700;
+}
+
 .title {
   font-weight: 600;
   font-size: 16px;
