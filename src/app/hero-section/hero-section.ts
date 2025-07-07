@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common'; // ✅ Import this
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-hero-section',
   standalone: true,
-  imports: [CommonModule], // ✅ Add this here
+  imports: [CommonModule],
   templateUrl: './hero-section.html',
   styleUrls: ['./hero-section.css']
 })
@@ -38,6 +38,6 @@ export class HeroSectionComponent {
   }
 
   ngOnDestroy() {
-    clearInterval(this.autoplayInterval); // ✅ clean up
+    clearInterval(this.autoplayInterval); 
   }
 }
