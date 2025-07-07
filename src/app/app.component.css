@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+[id]::before {
+  content: "";
+  display: block;
+  height: 80px; /* adjust to your navbar height */
+  margin-top: -80px;
+}

@@ -3,12 +3,12 @@ import { CustomSolutions } from './custom-solutions/custom-solutions';
 import { B2bMetrics } from './b2b-metrics/b2b-metrics';
 import { HighTrafficLocations } from './high-traffic-locations/high-traffic-locations';
 import { Footer } from './footer/footer';
+import { SolutionsSection } from './solutions-section/solutions-section';
 
 export const routes: Routes = [
   { path: 'custom-solutions', component: CustomSolutions },
-  {path: 'b2b-metrics', component: B2bMetrics}, 
+  { path: 'b2b-metrics', component: B2bMetrics },
+  { path: 'services', component: SolutionsSection },
   { path: 'locations', component: HighTrafficLocations },
-    { path: 'footer', component: Footer },
-
-
+  { path: 'footer', component: Footer },
 ];

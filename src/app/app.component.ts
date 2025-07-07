@@ -12,7 +12,7 @@ import { ContactForm } from './contact-form/contact-form';
 @Component({
   selector: 'app-root',
   standalone: true, // Add this if you're using standalone components
-  imports: [RouterOutlet,NavbarComponent,HeroSectionComponent,SolutionsSection,CustomSolutions,B2bMetrics,HighTrafficLocations,ContactForm,Footer],
+  imports: [RouterOutlet,NavbarComponent,HeroSectionComponent,SolutionsSection,B2bMetrics,HighTrafficLocations,ContactForm,Footer],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
 })

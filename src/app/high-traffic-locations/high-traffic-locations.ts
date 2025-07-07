@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-high-traffic-locations',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './high-traffic-locations.html',
   styleUrl: './high-traffic-locations.css'
