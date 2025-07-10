@@ -9,7 +9,7 @@ export class ContactService {
 
   sendEmail(formData: any): Promise<any> {
     const SERVICE_ID = 'service_81qipql';
-    const TEMPLATE_ID = 'u-Qos7PjA9DfOTk7YUowS';
+    const TEMPLATE_ID = 'template_yrdocjw';
     const PUBLIC_KEY = 'Je9cS0ySWv7yM8ur-';
 
     return emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY);
