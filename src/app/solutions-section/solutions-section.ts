@@ -36,7 +36,7 @@ export class SolutionsSection {
     },
     {
       image: '/sizes-branding.png',
-      title: 'Sizes and formats display (Coming Soon)',
+      title: 'Sizes and formats display',
       description: '(Coming Soon)'
     },
   ];
