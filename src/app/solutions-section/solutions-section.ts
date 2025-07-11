@@ -32,12 +32,12 @@ export class SolutionsSection {
     {
       image: '/hubs.png',
       title: 'Transit Hubs',
-      // description: 'Short description or caption goes here.'
+      description: '(Coming Soon)'
     },
     {
       image: '/sizes-branding.png',
-      title: 'Sizes and formats display',
-      // description: 'Short description or caption goes here.'
+      title: 'Sizes and formats display (Coming Soon)',
+      description: '(Coming Soon)'
     },
   ];
 
