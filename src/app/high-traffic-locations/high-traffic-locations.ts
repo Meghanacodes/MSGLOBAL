@@ -22,7 +22,7 @@ export class HighTrafficLocations {
       ],
     },
     {
-      title: 'Transit Hubs',
+      title: 'Transit Hubs (Coming Soon)',
       traffic: '30,000–50,000 daily foot traffic',
       image: '/hubs.png',
       points: [
@@ -32,7 +32,7 @@ export class HighTrafficLocations {
       ],
     },
     {
-      title: 'Commercial Districts',
+      title: 'Commercial Districts (Coming Soon)',
       traffic: '20,000–40,000 daily foot traffic',
       image: '/Commercial-Districts.png',
       points: [
