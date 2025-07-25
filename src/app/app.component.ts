@@ -8,11 +8,12 @@ import { B2bMetrics } from './b2b-metrics/b2b-metrics';
 import { HighTrafficLocations } from './high-traffic-locations/high-traffic-locations';
 import { Footer } from './footer/footer';
 import { ContactForm } from './contact-form/contact-form';
+import { Testimonial } from './testimonial/testimonial';
 
 @Component({
   selector: 'app-root',
   standalone: true, // Add this if you're using standalone components
-  imports: [RouterOutlet,NavbarComponent,HeroSectionComponent,ContactForm,SolutionsSection,B2bMetrics,CustomSolutions,HighTrafficLocations,Footer],
+  imports: [RouterOutlet,NavbarComponent,HeroSectionComponent,ContactForm,SolutionsSection,B2bMetrics,Testimonial,CustomSolutions,HighTrafficLocations,Footer],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
 })
